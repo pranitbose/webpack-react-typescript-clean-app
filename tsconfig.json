@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+        /* Language and Environment */
+        "target": "ES2015",
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "jsx": "react-jsx",
+        /* Modules */
+        "module": "ES2015",
+        "moduleResolution": "Bundler",
+        "paths": {
+            "@app/*": ["./src/*"]
+        },
+        "resolveJsonModule": true,
+        /* JavaScript Support */
+        "allowJs": true,
+        "checkJs": true,
+        /* Emit */
+        "sourceMap": true,
+        "outDir": "./dist/",
+        "removeComments": true,
+        /* Interop Constraints */
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        /* Type Checking */
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "useUnknownInCatchVariables": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        /* Completeness */
+        "skipLibCheck": true
+    },
+    "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+    "exclude": ["node_modules", "dist", "build"]
+}
